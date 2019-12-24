@@ -12,5 +12,6 @@ function divide(a,b){
   return(a/b)
 }
 function dec(n){
-  return(n--)
+  n -= 1
+  return(n)
 }
