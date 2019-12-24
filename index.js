@@ -2,8 +2,7 @@ function add(a,b){
   return(a+b)
 }
 function subtract(a,b){
-  var x = b-a
-  return(x*1)
+  return(b-a)
 }
 function multiply(a,b){
   return(b*a)
