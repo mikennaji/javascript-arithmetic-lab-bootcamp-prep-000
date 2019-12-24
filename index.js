@@ -2,7 +2,7 @@ function add(a,b){
   return(a+b)
 }
 function subtract(a,b){
-  x = b-a
+  var x = b-a
   return(x)
 }
 function multiply(a,b){
