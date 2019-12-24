@@ -1,28 +1,24 @@
-function add(a,b){
-  return(a+b)
+var add = function(a,b){
+  return a + b;
 }
-function subtract(a,b){
-  return((b)-(a));
+var subtract = function(a,b){
+  return a - b;
 }
-function multiply(a,b){
-  return(b*a)
+var multiply = function(a,b){
+  return a * b;
 }
-function divide(a,b){
-  return(a/b)
+var divide = function(a,b){
+  return a / b;
 }
-function dec(n){
-  n -= 1
-  return(n)
+var inc = function(n){
+  return n + 1;
 }
-function inc(n){
-  n += 1
-  return(n)
+var dec = function(n){
+  return n - 1;
 }
-function makeInt(n){
-  var something = parseInt(n, 10)
-  return something
+var makeInt = function(n){
+  return parseInt(n, 10);
 }
-function preserveDecimal(n){
-  var something = parseFloat(n)
-  return something
+var preserveDecimal = function(n){
+  return n ;
 }
