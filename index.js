@@ -20,5 +20,6 @@ function inc(n){
   return(n)
 }
 function makeInt(n){
-  parseInt(n, 10)
+  var something = parseInt(n, 10)
+  return something
 }
